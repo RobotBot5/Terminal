@@ -22,7 +22,7 @@ data class TerminalState(
 
     private val visibleBars: List<Bar>
         get() {
-            val startIndex = (scrolledBy / barWidth).roundToInt().coerceAtLeast(0)
+            val startIndex = (scrolledBy / barWidth).roundToInt().coerceIn (0, barList.size)
             val endIndex = (startIndex + visibleBarCount).coerceAtMost(barList.size)
             return barList.subList(startIndex, endIndex)
         }
