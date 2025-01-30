@@ -5,7 +5,7 @@ Stock Chart is a practice project focused on **Canvas in Jetpack Compose**. The 
 ## Features
 ✅ **Custom Composable** for rendering candlestick charts  
 ✅ **Real-time stock data** visualization  
-✅ User-selectable **time intervals** (5 min, 15 min, 30 min, 1 hour)
+✅ User-selectable **time intervals** (5 min, 15 min, 30 min, 1 hour)  
 ✅ **Zooming and scrolling** support
 
 ## Tech Stack
